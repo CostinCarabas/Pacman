@@ -1,0 +1,79 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="final_project.pacman"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/pacman"
+        android:persistent="true"
+        android:theme="@style/Pacman" >
+        <activity
+            android:name=".MeniuActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".FinishActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".SetariActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".HighscoreActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".LevelActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ChooseActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".LanguageActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".SaveHighscoreActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

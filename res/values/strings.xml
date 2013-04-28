@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Pacman</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_character">Character</string>
+    <string name="menu_language">Language</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="pacman">pacman</string>
+    <string name="scor_">"Scor:  "</string>
+    <string name="meniu">Meniu</string>
+    <string name="next_level">Next Level</string>
+    <string name="save">save</string>
+
+</resources>
